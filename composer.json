@@ -1,0 +1,20 @@
+{
+	"name": "swos-/database",
+	"description": "A simple PDO wrapper class and DAL for PHP applications.",
+	"license": "MIT",
+	"keywords": ["database", "pdo", "dal"],
+	"authors": [
+		{
+			"name": "John Austin",
+			"email": "john.austin1@gmail.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Swos\\Database\\": "src/"
+		}
+	},
+	"require": {
+		"php": ">5.5.0"
+	}
+}
