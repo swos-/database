@@ -9,13 +9,12 @@
 			"email": "john.austin1@gmail.com"
 		}
 	],
-	"minimum-stability": "dev",
 	"autoload": {
 		"psr-4": {
 			"Swos\\Database\\": "src/"
 		}
 	},
 	"require": {
-		"php": ">5.5.0"
+		"php": ">=5.5.0"
 	}
 }
