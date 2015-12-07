@@ -1,5 +1,5 @@
 {
-	"name": "swos-/database",
+	"name": "swos/database",
 	"description": "A simple PDO wrapper class and DAL for PHP applications.",
 	"license": "MIT",
 	"keywords": ["database", "pdo", "dal"],
