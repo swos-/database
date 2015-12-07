@@ -9,6 +9,7 @@
 			"email": "john.austin1@gmail.com"
 		}
 	],
+	"minimum-stability": "dev",
 	"autoload": {
 		"psr-4": {
 			"Swos\\Database\\": "src/"
