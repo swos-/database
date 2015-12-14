@@ -2,6 +2,8 @@
 
 namespace Swos\Database;
 
+use \PDO;
+
 class Database {
 	private $dbh;
 	private $statement;
