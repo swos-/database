@@ -46,4 +46,9 @@ class Database {
 		$this->execute();
 		return $this->statement->fetch(PDO::FETCH_ASSOC);
     }
+
+    public function resultset() {
+        $this->execute();
+        return $this->stmt->fetchAll(PDO::FETCH_ASSOC);
+    }
 }
